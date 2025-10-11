@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "about": "About Us",
+    "goals": "Goals",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Smiling Cups",
+    "subtitle": "The digital platform that connects coffee lovers with the fun of probability."
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a startup that connects coffee lovers with local coffee shops through a digital platform offering mystery boxes with subscriptions."
+  },
+  "goals": {
+    "title": "Goals",
+    "description": "Our goals at Smiling Cups are:",
+    "item1": "Giving visibility to small developers.",
+    "item2": "Allowing users to share the projects and work in which they participated.",
+    "item3": "Helping small developers get involved in new projects."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "On our different social media.",
+    "instagram": "Instagram",
+    "gmail": "Gmail",
+    "twitter": "X"
+  },
+  "foot": {
+    "copyright": "© 2025 Smiling Cups — All Rights Reserved",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "gmail": "Gmail"
+  }
+
+
+}
