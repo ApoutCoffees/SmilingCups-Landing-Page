@@ -8,6 +8,8 @@ const { t } = useI18n();
 const items = [
   { label: "option.about", to: "/home" },
   { label: "option.catalog", to: "/catalog" },
+  { label: "option.goals", to: "/goals" },
+  { label: "option.contact", to: "/contact" },
 ];
 </script>
 
