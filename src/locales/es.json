@@ -1,0 +1,36 @@
+{
+  "nav": {
+    "about": "Nosotros",
+    "goals": "Metas",
+    "contact": "Contacto"
+  },
+  "home": {
+    "title": "Smiling Cups",
+    "subtitle": "La plataforma digital que conecta a los amantes del café con la diversión de la probabilidad."
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "description": "Somos una startup que conecta a los amantes del café con cafeterías locales a través de una plataforma digital que ofrece cajas misteriosas con suscripciones."
+  },
+  "goals": {
+    "title": "Nuestras Metas",
+    "description": "Nuestras metas en Smiling Cups son:",
+    "item1": "Dar visibilidad a pequeños desarrolladores.",
+    "item2": "Permitir a los usuarios compartir los proyectos y trabajos en los que participaron.",
+    "item3": "Ayudar a pequeños desarrolladores a involucrarse en nuevos proyectos."
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "description": "En nuestras diferentes redes sociales.",
+    "instagram": "Instagram",
+    "gmail": "Gmail",
+    "twitter": "X"
+  },
+  "foot": {
+    "copyright": "© 2025 Smiling Cups — Todos los derechos reservados.",
+    "instagram": "Instagram",
+    "twitter": "Twitter",
+    "gmail": "Gmail"
+  }
+
+}
