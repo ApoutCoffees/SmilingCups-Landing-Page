@@ -9,15 +9,15 @@ const { t } = useI18n();
     <p class="description">{{ t('goals.description') }}</p>
     <div class="goals">
       <div class="goal-item">
-        <img src="/src/assets/goals/goal1.jpg" alt="Goal 1">
+        <img src="/assets/goals/goal1.jpg" alt="Goal 1">
         <span class="goal-text">{{ t('goals.item1') }}</span>
       </div>
       <div class="goal-item">
-        <img src="/src/assets/goals/goal2.jpg" alt="Goal 2">
+        <img src="/assets/goals/goal2.jpg" alt="Goal 2">
         <span class="goal-text">{{ t('goals.item2') }}</span>
       </div>
       <div class="goal-item">
-        <img src="/src/assets/goals/goal3.jpg" alt="Goal 3">
+        <img src="/assets/goals/goal3.jpg" alt="Goal 3">
         <span class="goal-text">{{ t('goals.item3') }}</span>
       </div>
     </div>
