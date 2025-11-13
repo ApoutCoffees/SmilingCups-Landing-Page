@@ -12,23 +12,23 @@ const { t } = useI18n();
 
     <div class="team">
       <div class="member">
-        <img src="/src/assets/members/Giuliano.png" alt="Giuliano">
+        <img src="/assets/members/Giuliano.png" alt="Giuliano">
         <a>Giuliano Peláez</a>
       </div>
       <div class="member">
-        <img src="/src/assets/members/Johnny.png" alt="Johnny">
+        <img src="/assets/members/Johnny.png" alt="Johnny">
         <a>Johnny Ojanama</a>
       </div>
       <div class="member">
-        <img src="/src/assets/members/Aquino.png" alt="Aquino">
+        <img src="/assets/members/Aquino.png" alt="Aquino">
         <a>Daniel Aquino</a>
       </div>
       <div class="member">
-        <img src="/src/assets/members/Carlos.png" alt="Carlos">
+        <img src="/assets/members/Carlos.png" alt="Carlos">
         <a>Carlos Paredes</a>
       </div>
       <div class="member">
-        <img src="/src/assets/members/Juan.png" alt="Juan">
+        <img src="/assets/members/Juan.png" alt="Juan">
         <a>Juan Napa</a>
       </div>
     </div>
