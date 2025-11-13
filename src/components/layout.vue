@@ -14,7 +14,7 @@ const { t } = useI18n();
       <div class="header-content">
         <div class="logo">
           <router-link to="/">
-            <img src="../assets/logos/smilinglogo.png" class="logoimg" alt="Logo">
+            <img src="/assets/logos/smilinglogo.png" class="logoimg" alt="Logo">
           </router-link>
         </div>
 
