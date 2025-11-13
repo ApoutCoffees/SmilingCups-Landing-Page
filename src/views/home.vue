@@ -12,7 +12,7 @@ const { t } = useI18n();
       <p class="smilingcups">
         {{ t('home.subtitle') }}
       </p>
-      <img src="/src/assets/background/smilingcup.png" class="HomeImage" alt="Smiling Cup">
+      <img src="/assets/background/smilingcup.png" class="HomeImage" alt="Smiling Cup">
     </div>
   </div>
 </template>
