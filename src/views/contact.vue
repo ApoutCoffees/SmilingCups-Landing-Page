@@ -10,19 +10,19 @@ const { t } = useI18n();
     <div class="contact">
       <div class="contact-method">
         <a href="https://www.instagram.com" target="_blank">
-          <img src="/src/assets/logos/Insta-logo.png" alt="Instagram">
+          <img src="/assets/logos/Insta-logo.png" alt="Instagram">
         </a>
         <a>Instagram</a>
       </div>
       <div class="contact-method">
         <a href="https://mail.google.com" target="_blank">
-          <img src="/src/assets/logos/Gmail-logo.png" alt="Gmail">
+          <img src="/assets/logos/Gmail-logo.png" alt="Gmail">
         </a>
         <a>Gmail</a>
       </div>
       <div class="contact-method">
         <a href="https://twitter.com" target="_blank">
-          <img src="/src/assets/logos/X-logo.png" alt="Twitter">
+          <img src="/assets/logos/X-logo.png" alt="Twitter">
         </a>
         <a>X</a>
       </div>
