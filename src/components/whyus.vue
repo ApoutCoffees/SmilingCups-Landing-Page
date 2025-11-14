@@ -14,7 +14,7 @@ const { t } = useI18n();
         <p>{{ t('home.why_us.quality_desc') }}</p>
       </div>
       <div class="feature-card">
-        <img src="../assets/HearthIcon.png" alt="Direct Impact Icon" />
+        <img src="../assets/HeartIcon.png" alt="Direct Impact Icon" />
         <h3>{{ t('home.why_us.impact_title') }}</h3>
         <p>{{ t('home.why_us.impact_desc') }}</p>
       </div>
