@@ -28,11 +28,10 @@ const { t } = useI18n();
           <button class="btn btn-primary">{{ t('home.plans_button') }}</button>
 
           <a
-              href="https://www.google.com"
+              href="https://tp1upc-apoutcoffe.web.app/"
               class="btn btn-secondary"
               target="_blank"
-              rel="noopener noreferrer"
-          >
+              rel="noopener noreferrer">
             {{ t('home.official_page_button') }}
           </a>
         </div>
@@ -88,4 +87,5 @@ h1 { font-family: 'Amaranth', sans-serif; font-size: 3.5rem; line-height: 1.1; c
 .btn-primary:hover { background-color: #4a2c1d; }
 .btn-secondary { background-color: #F5EFE6; color: #2C1810; }
 .btn-secondary:hover { background-color: #e0d8ce; }
+
 </style>
