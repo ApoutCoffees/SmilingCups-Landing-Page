@@ -1,0 +1,47 @@
+name: Deploy to GitHub Pages
+
+# Disparar el workflow en cada push a la rama 'main'
+on:
+  push:
+    branches: [ main ] # Cambia 'main' si usas otra rama principal
+
+# Establece los permisos necesarios para GITHUB_TOKEN
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # Ejecutar en un servidor Linux
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4 # Obtiene el código del repositorio
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Usa una versión reciente de Node.js
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build project
+        run: npm run build # Ejecuta el script de construcción de Vite, que genera la carpeta 'dist'
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4 # Configura el entorno de GitHub Pages
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Sube los archivos estáticos generados por Vite (la carpeta 'dist')
+          path: './dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 # Publica el artefacto a GitHub Pages
