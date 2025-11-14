@@ -1,1 +1,0 @@
-# SmilingCups-Landing-Page
