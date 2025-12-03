@@ -52,6 +52,11 @@ const { t } = useI18n();
     <WhyUs />
     <Subscription />
     <WhatCustomer />
+    <h1></h1>
+    <h1>Videos :</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/B8ZIb7cM91E?si=RZo3Htyi9AGrEk2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h1></h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kgR6689K0nY?si=5e7gV5iz1NV3MncQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <FinalMessageHome />
 
   </div>
